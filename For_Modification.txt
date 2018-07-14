@@ -1,0 +1,21 @@
+Around Line 148 in VS code editor
+Directive for onClose function
+
+
+
+										//Getting the complete date to Reportt variable
+										$scope.Reporttt = new Date(inst.selectedYear, inst.selectedMonth, 1); 
+										console.log("dateeeeeeeeeeeee"+$scope.today);
+										console.log("dateeeeeeeeeeeee in report"+$scope.Reporttt);
+										//$scope.today=$filter('date')($scope.Reporttt , 'M-yy');
+										
+										$scope.test($scope.Reporttt);
+										
+Around Line 690 in VS code editor										
+Inside 	test function							
+								
+				$scope.foo=response;
+				$scope.tempDate=   $filter('date')($scope.foo , "MMM-yy"); 
+            	//$scope.formattedDate  = response;
+            	alert("fist"+$scope.tempDate );
+				$scope.formattedDate  = $scope.tempDate;										
